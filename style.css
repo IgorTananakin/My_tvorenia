@@ -1,0 +1,36 @@
+form{
+background-color:#d6f2f4;
+width:400px;
+
+
+}
+form legend
+{
+ margin:0px auto;
+}
+form input{
+margin:5px 10px 5px 10px;
+border-radius: 6 px;
+width: 180px;
+border-top:2px solid black;
+border-left:2px solid black;
+
+}
+form input[type="submit"]{
+margin:5px 10px 5px 95px;
+
+background-color:#f4f118;
+border-top:0px solid black;
+border-left:0px solid black;
+border-radius:6px;
+
+}
+form p{
+margin:5px 10px 5px 10px;
+}
+form textarea
+{
+margin:5px 10px 5px 10px;
+top:200px;
+width:350px;
+}

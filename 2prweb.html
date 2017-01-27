@@ -1,0 +1,37 @@
+<html>
+	<meta charset="uft-8">
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+<head>
+	<title>Практическая работа №2</title>
+</head>
+<body>
+
+		<header>	
+		</header>
+		<section>
+		<form>
+		<legend> Регистрация</legend>
+		<p>Имя</p>
+		<input  type="text" autofocus="" placeholder="Иван" pattern="[0-9A-Za-za-яА-ЯЁё]{2,10}" required/>
+		<p>Фамилия</p>
+		<input type="text" placeholder="Иванов"  pattern="[0-9A-Za-za-яА-ЯЁё]{2,14}" required/>
+		<p>Отчество</p>
+		<input type="text" placeholder="Иванович"  pattern="[0-9A-Za-za-яА-ЯЁё]{2,14}" required/>
+		<p>E-mail</p>
+		<input type="email" placeholder="ivan@mail.ru"  required/>
+		<p>Пароль</p>
+		<input type="password" placeholder="qwertyAB$!%><1"  pattern="((?=.*\d)(?=.*[!@#$%^&*.,\/\-+]).{3,}(?=.*[a-z])(?=.*[A-Z].{2,}).{5,10})"  required/>
+		<p>Логин</p>
+		<input type="text" placeholder="Логин"  pattern="[a-z]{4,}"required/>
+		<p>Сообщение о регистации</p>
+		<textarea placeholder="Сообщение о регистации"  pattern="[a-z]\{10,100\}"required/></textarea>
+		<p>Дата рождения</p>
+		<input type="date" placeholder="1945 09 05"  min="1900-01-01" max="2009-12-31" required/>
+		<input type="submit" value="Зарегистрироваться"/>
+		</form>
+		</section>
+		<footer>
+			
+		</footer>
+</body>
+</html>
