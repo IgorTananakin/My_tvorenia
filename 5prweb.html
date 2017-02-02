@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Практическая работа №5</title>
+</head>
+<body>
+<script type="text/javascript">
+
+function func()
+{
+    var mas = []; 
+    var kol = prompt('Введите количество имён:',""); 
+    for(var i=0;i < kol;i++)
+    {
+        mas[i] = prompt('Введите '+(i+1)+' имя ','');
+    }
+	mas.sort();
+	alert('отсортированный массив имён');
+	for (var i=0;i<kol;i++)
+	{
+	document.writeln(mas[i]);
+	}
+	}
+	func();
+
+</script>
+</body>
+</html>
