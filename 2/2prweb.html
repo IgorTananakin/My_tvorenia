@@ -22,11 +22,11 @@
 		<p>Пароль</p>
 		<input type="password" placeholder="qwertyAB$!%$1"  pattern="((?=^.{5,10}$)(?=.*\d)(?!.*[А-Яа-яЁё])((?=.*[A-Z])(?=.*[A-Z])((?:.*[!@#$%^&*\[\]\{\}]){3,})).*)"   required/>
 		<p>Логин</p>
-		<input type="text" placeholder="Логин"  pattern="[a-z]{4,}"required/>
+		<input type="text" placeholder="Логин"  pattern="[A-Za-z]{4,}"required/>
 		<p>Сообщение о регистации</p>
-		<input type="text" placeholder="Сообщение о регистации"  pattern="[a-z]{10,100}"required/>
+		<input type="maxlength" placeholder="Сообщение о регистации"  pattern="[A-Za-z]{10,100}"required/>
 		<p>Дата рождения</p>
-		<input type="date" placeholder="1945 09 05"  pattern="(([3]{1}[0-1]{1})||([0-2]{1}[0-9]{1}))\.(([1]{1}[0-2]{1})||([0]{1}[1-9]{1}))\.(([1]{1}[9]{1}[0-9]{1}[0-9]{1})||([2]{1}[0]{1}[0]{1}[0-9]{1})||([2]{1}[0]{1}[1]{1}[0-3]{1}))" required/>
+		<input type="date" placeholder="1945 09 05" min="1900-01-01" max="2009-12-12" required/>
 		<input type="submit" value="Зарегистрироваться"/>
 		</form>
 		</section>
