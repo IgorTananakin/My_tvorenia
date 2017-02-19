@@ -1,0 +1,553 @@
+*{
+list-style-type: none;
+}
+body{
+
+background-image: url(img/fone_gl.jpg);
+background-repeat: no-repeat;
+background-color:black;
+
+}
+html{
+margin:0px 127px;
+
+}
+
+input:first-child{
+margin-left:10px;
+background-color:#666666;
+border-radius:6px;
+border-color:#666666;}
+input:nth-child(2){
+margin-left:20px;
+background-color:#666666;
+border-radius:6px;
+border-color:#666666;}
+
+input:nth-child(3){
+margin-left:500px;
+background-color:#666666;
+border-radius:6px;
+border-color:#666666;}
+
+
+#logo{
+position:absolute;
+width:700px;
+height:700px;
+top:-270px; left:-150px;
+}
+#logo1{
+position:absolute;
+width:700px;
+height:700px;
+top:-270px;left:-70px;
+}
+#logo2{
+position:absolute;
+width:700px;
+height:700px;
+top:-250px;left:-70px;
+}
+
+
+header ul#menu { 
+     margin-top: -10px;
+	 margin-left:270px;
+  padding : 0; 
+  overflow: hidden;
+} 
+header ul li { 
+  float: left;
+  width : 70px; 
+  height: 121px; 
+  list-style-type : none; 
+   margin-top: 5px;
+   margin-left:10px;
+  padding : 0; 
+  display:block;
+} 
+
+header ul#menu li:first-child a.video { 
+display:block;
+position:absolute;
+background: url(img/header/video.jpg)  no-repeat;
+
+  width : 60px; 
+  height: 120px; 
+  margin-left:10px;
+  margin-top:5px;
+} 
+
+
+header figcaption{
+color:white;
+font-size:14px;
+padding-top:45px;
+padding-left:10px;
+}
+header  figcaption:hover{color:#7086db;}
+header ul#menu li:nth-child(2) a.myz { 
+position:absolute;
+background: url(img/header/myz.jpg) left no-repeat;
+  width : 60px; 
+  height: 120px; 
+  margin-left:10px;
+  margin-top:-35px;
+} 
+
+
+header ul#menu li:nth-child(3) a.soft { 
+position:absolute;
+background: url(img/header/soft.jpg) no-repeat;
+  width : 60px; 
+  height: 120px; 
+  margin-left:10px;
+  margin-top:5px;
+} 
+
+
+header ul#menu li:nth-child(4) a.game { 
+position:absolute;
+background: url(img/header/game.jpg)  no-repeat;
+  width : 60px; 
+  height: 120px; 
+  margin-left:10px;
+  margin-top:5px;
+} 
+
+
+header ul#menu li:nth-child(5) a.book { 
+position:absolute;
+background: url(img/header/book.jpg)  no-repeat;
+  width : 60px; 
+  height: 120px; 
+  margin-left:10px;
+  margin-top:5px;
+} 
+
+
+header ul#menu li:nth-child(6) a.raznoe { 
+position:absolute;
+background: url(img/header/raznoe.jpg)  no-repeat;
+  width : 60px; 
+  height: 120px; 
+  margin-left:10px;
+  margin-top:5px;
+} 
+} 
+
+
+header ul#menu li:nth-child(7) a.obchenie { 
+position:absolute;
+background: url(img/header/obchenie.jpg)  no-repeat;
+  width : 60px; 
+  height: 120px; 
+  margin-left:0px;
+  margin-top:5px;
+} 
+
+
+header{
+width:1200px;
+height:130px;
+margin-top:0px;
+
+}
+section:nth-child(3){
+margin-left:280px;
+margin-top:0px;
+width:500px;
+height:900px;
+
+}
+aside:nth-child(2) {
+width:275px;
+height:900px;
+
+margin-left:-50px;
+float:left;
+}
+
+
+section:nth-child(3) ul li {
+  float: left;
+  
+  width : 70px; 
+  height: 70px;  
+   margin: 10px;
+   margin-left:55px;
+margin-top:0px;
+  display:block;
+}
+section:nth-child(3) ul#menu li:first-child a.film { 
+position:absolute;
+background: url(img/telo/video/film.jpg)  no-repeat;
+  width : 70px; 
+  height: 70px; 
+  margin-left:0px;
+  margin-top:-20px;
+}
+section:nth-child(3) ul#menu li:first-child a.film:hover { background:url(img/telo/video/film2.png) no-repeat}
+section:nth-child(3) figure:nth-child(1):hover{color:blue;}
+
+section:nth-child(3) ul#menu li:nth-child(2) a.pric { 
+position:absolute;
+background: url(img/telo/video/pric.jpg)  no-repeat;
+  width : 70px; 
+  height: 70px; 
+  margin-left:0px;
+  margin-top:-20px;
+}
+section:nth-child(3) ul#menu li:nth-child(2) a.pric:hover { background:url(img/telo/video/pric2.png) no-repeat}
+
+section:nth-child(3) ul#menu li:nth-child(3) a.serial { 
+position:absolute;
+background: url(img/telo/video/serial.jpg)  no-repeat;
+  width : 70px; 
+  height: 70px; 
+  margin-left:0px;
+  margin-top:-20px;
+}
+section:nth-child(3) ul#menu li:nth-child(3) a.serial:hover { background:url(img/telo/video/serial2.png) no-repeat}
+
+section:nth-child(3) ul#menu li:nth-child(4) a.video2 { 
+position:absolute;
+background: url(img/telo/video/video.jpg)  no-repeat;
+  width : 70px; 
+  height: 70px; 
+  margin-left:0px;
+  margin-top:0px;
+}
+section:nth-child(3) ul#menu li:nth-child(4) a.video2:hover { background:url(img/telo/video/video3.png) no-repeat}
+
+section:nth-child(3) ul#menu li:nth-child(5) a.anime { 
+position:absolute;
+background: url(img/telo/video/anime.jpg)  no-repeat;
+  width : 69px; 
+  height: 70px; 
+  margin-left:0px;
+  margin-top:0px;
+}
+section:nth-child(3) ul#menu li:nth-child(5) a.anime:hover { background:url(img/telo/video/anime2.png) no-repeat}
+
+section:nth-child(3) ul#menu li:nth-child(6) a.mylt { 
+position:absolute;
+background: url(img/telo/video/mylt.jpg)  no-repeat;
+  width : 70px; 
+  height: 70px; 
+  margin-left:0px;
+  margin-top:0px;
+}
+section:nth-child(3) ul#menu li:nth-child(6) a.mylt:hover { background:url(img/telo/video/mylt2.png) no-repeat}
+
+aside:nth-child(4) {
+width:400px;
+height:600px;
+margin-top:-922px;
+margin-left:775px;
+}
+footer:nth-child(5){
+width:1200px;
+height:130px;
+margin-top:0px;
+}
+aside a:first-child img{/*баннеры*/
+width:250px;
+height:250px;
+margin-top:0px;
+margin-left:25px;
+}
+aside a:nth-child(2) img{
+width:250px;
+height:250px;
+margin-top:15px;
+margin-left:25px;
+}
+aside a:last-child img{
+width:250px;
+height:250px;
+margin-top:15px;
+margin-left:25px;
+}/*конец баннеров*/
+
+section:nth-child(3) h3:first-child{
+color:white;
+margin-top:0px;
+margin-left:70px;
+}
+section:nth-child(3) h3:nth-child(2){
+color:white;
+margin-top:0px;
+margin-left:70px;
+}
+#H33{
+color:white;
+margin-top:290px;
+margin-left:80px;
+}
+#H32{
+color:white;
+margin-left:80px;
+margin-top:190px;
+}
+#H31{
+color:white;
+margin-left:80px;
+
+}
+
+section:nth-child(3) ul#menu li:first-child a.popsa { 
+position:absolute;
+background: url(img/telo/video/popsa.jpg)  no-repeat;
+  width : 80px; 
+  height: 80px; 
+  margin-left:0px;
+
+  margin-top:-20px;
+}
+section:nth-child(3) ul#menu li:first-child a.popsa:hover { background:url(img/telo/video/popsa2.png) no-repeat}
+
+section:nth-child(3) ul#menu li:nth-child(2) a.rep { 
+position:absolute;
+background: url(img/telo/video/rep.jpg)  no-repeat;
+  width : 80px; 
+  height: 80px; 
+  margin-left:0px;
+ 
+  margin-top:-20px;
+}
+section:nth-child(3) ul#menu li:nth-child(2) a.rep:hover { background:url(img/telo/video/rep2.png) no-repeat}
+
+.rok { 
+position:absolute;
+background: url(img/telo/video/rok.jpg)  no-repeat;
+  width : 80px; 
+  height: 80px; 
+  margin-left:0px;
+ margin-top:0px;
+}
+section:nth-child(3) ul#menu li:nth-child(3) a.rok:hover { background:url(img/telo/video/rok2.png) no-repeat}
+
+section:nth-child(3) ul#menu li:nth-child(4) a.jz { 
+position:absolute;
+background: url(img/telo/video/jz.jpg)  no-repeat;
+  width : 80px; 
+  height: 80px; 
+  margin-left:0px;
+  margin-top:0px;
+}
+section:nth-child(3) ul#menu li:nth-child(4) a.dz:hover { background:url(img/telo/video/dz2.png) no-repeat}
+
+section:nth-child(3) ul#menu li:nth-child(5) a.electr{ 
+position:absolute;
+background: url(img/telo/video/electr.jpg)  no-repeat;
+  width : 80px; 
+  height: 80px; 
+  margin-left:0px;
+  margin-top:0px;
+}
+section:nth-child(3) ul#menu li:nth-child(5) a.electr:hover { background:url(img/telo/video/electr2.png) no-repeat}
+
+section:nth-child(3) ul#menu li:nth-child(6) a.tranc { 
+position:absolute;
+background: url(img/telo/video/tranc.jpg)  no-repeat;
+  width : 80px; 
+  height: 80px; 
+  margin-left:0px;
+  margin-top:0px;
+}
+section:nth-child(3) ul#menu li:nth-child(6) a.tranc:hover { background:url(img/telo/video/tranc2.png) no-repeat}
+
+section:nth-child(3) ul#menu li:nth-child(7) a.klip { 
+position:absolute;
+background: url(img/telo/video/klip.jpg)  no-repeat;
+  width : 80px; 
+  height: 80px; 
+  margin-left:0px;
+  margin-top:0px;
+}
+section:nth-child(3) ul#menu li:nth-child(7) a.klip:hover { background:url(img/telo/video/klip2.png) no-repeat}
+
+section:nth-child(3) ul#menu li:nth-child(8) a.bliz { 
+position:absolute;
+background: url(img/telo/video/bliz.jpg)  no-repeat;
+  width : 80px; 
+  height: 80px; 
+  margin-left:0px;
+  margin-top:0px;
+}
+section:nth-child(3) ul#menu li:nth-child(8) a.bliz:hover { background:url(img/telo/video/bliz2.png) no-repeat}
+
+section:nth-child(3) ul#menu li:nth-child(9) a.raznoe { 
+position:absolute;
+background: url(img/telo/video/raznoe.jpg)  no-repeat;
+  width : 80px; 
+  height: 80px; 
+  margin-left:0px;
+  margin-top:0px;
+}
+section:nth-child(3) ul#menu li:nth-child(9) a.raznoe:hover { background:url(img/telo/video/raznoe2.png) no-repeat}
+
+/*игры*/
+section:nth-child(3) ul#menu li:first-child a.new { 
+position:absolute;
+background: url(img/telo/video/new.jpg)  no-repeat;
+  width : 90px; 
+  height: 120px; 
+  margin-left:0px;
+  margin-top:-20px;
+}
+section:nth-child(3) ul#menu li:first-child a.new:hover { background:url(img/telo/video/new2.png) no-repeat}
+
+.ark { 
+position:absolute;
+background: url(img/telo/video/arc.jpg)  no-repeat;
+  width : 90px; 
+  height: 120px; 
+  margin-left:0px;
+  margin-top:0px;
+display:block;
+}
+.ark:hover { background:url(img/telo/video/ark2.png) no-repeat}
+
+section:nth-child(3) ul#menu li:nth-child(3) a.str { 
+position:absolute;
+background: url(img/telo/video/str.jpg)  no-repeat;
+  width : 90px; 
+  height: 120px; 
+  margin-left:0px;
+  margin-top:-20px;
+}
+section:nth-child(3) ul#menu li:nth-child(3) a.str:hover { background:url(img/telo/video/ark2.png) no-repeat}
+
+section:nth-child(3) ul#menu li:nth-child(4) a.sport { 
+position:absolute;
+background: url(img/telo/video/sport.jpg)  no-repeat;
+  width : 90px; 
+  height: 120px; 
+  margin-left:0px;
+  margin-top:0px;
+}
+section:nth-child(3) ul#menu li:nth-child(4) a.sport:hover { background:url(img/telo/video/sport2.png) no-repeat}
+
+section:nth-child(3) ul#menu li:nth-child(5) a.sim { 
+position:absolute;
+background: url(img/telo/video/sim.jpg)  no-repeat;
+  width : 90px; 
+  height: 120px; 
+  margin-left:0px;
+  margin-top:0px;
+}
+section:nth-child(3) ul#menu li:nth-child(5) a.sim:hover { background:url(img/telo/video/sim2.png) no-repeat}
+
+section:nth-child(3) ul#menu li:nth-child(6) a.cons { 
+position:absolute;
+background: url(img/telo/video/cons.jpg)  no-repeat;
+  width : 90px; 
+  height: 120px; 
+  margin-top:0px;
+}
+section:nth-child(3) ul#menu li:nth-child(6) a.cons:hover { background:url(img/telo/video/cons2.png) no-repeat}
+
+section:nth-child(3) ul#menu li:nth-child(7) a.gonki { 
+position:absolute;
+background: url(img/telo/video/gonki.jpg)  no-repeat;
+  width : 90px; 
+  height: 120px; 
+  margin-left:0px;
+  margin-top:0px;
+}
+section:nth-child(3) ul#menu li:nth-child(7) a.gonki:hover { background:url(img/telo/video/gonki3.png) no-repeat}
+
+section:nth-child(3) ul#menu li:nth-child(8) a.ekhen { 
+position:absolute;
+background: url(img/telo/video/ekhen.jpg)  no-repeat;
+  width : 90px; 
+  height: 120px; 
+  margin-left:0px;
+  margin-top:0px;
+}
+
+section:nth-child(3) ul#menu li:nth-child(8) a.ekhen:hover { background:url(img/telo/video/ekhen2.png) no-repeat;}
+section:nth-child(3) ul#menu li:nth-child(9) a.all_game { 
+position:absolute;
+background: url(img/telo/video/all_game.jpg)  no-repeat;
+  width : 90px; 
+  height: 120px; 
+  margin-left:0px;
+  margin-top:0px;
+}
+section:nth-child(3) ul#menu li:nth-child(9) a.all_game:hover { background:url(img/telo/video/123.png) no-repeat}
+section figcaption{color:white;
+font-size:14px;
+padding-top:70px;}
+
+.f1{height:100px; width:100px;}
+
+.f1:hover{text-shadow:0 0 5px blue;}
+
+.f2{height:100px; width:100px;}
+.f2:hover{background:url(img/header/f2.png) no-repeat;
+border-radius:6px;
+margin-top:25px;
+text-shadow:0 0 5px blue;}
+
+section:nth-child(3) hr{width:300px;color:#626263;
+
+    height:1px;
+}
+aside:nth-child(4) hr{width:150px;color:#626263;
+}
+.Novosti{
+color:white;
+margin-top:-10px;}
+h4{
+color:white;}
+
+aside:nth-child(4) ul li p.New{
+color:#4c4c4d;
+font-size:12px;
+margin-bottom:-20px;
+margin-left:0px;
+}
+aside:nth-child(4) ul li p.New1{
+color:white;
+margin-top:20px;
+margin-bottom:-10px;
+}
+aside:nth-child(4) ul li p.New1:hover{color:#6c9bef;}
+ul.picture{
+  width : 70px; 
+  height: 70px;
+}
+aside:nth-child(4) ul.picture li {
+background: url(img/telo/video/avto.jpg)  no-repeat;
+  width : 300px; 
+  height: 50px;
+
+}
+aside:nth-child(4) .postyplenie1{
+color:white;
+margin-left:20px;
+}
+aside:nth-child(4) .postyplenie1:hover{color:#6c9bef;}
+.postyplenie2{
+color:#4c4c4d;
+margin-left:20px;
+font-size:12px;
+}
+.recl{
+color:#4c4c4d;
+margin-top:320px;
+}
+.recl1{
+color:#4c4c4d;
+margin-top:-10px;
+margin-left:500px;
+}
+#logo_recl{
+position:absolute;
+margin-top:-60px;
+margin-left:950px;
+}
