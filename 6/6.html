@@ -1,0 +1,56 @@
+﻿<html>
+<head>
+<meta charset="utf-8">
+<title>Практическая работа №6</title>
+</head>
+<body>
+<script type="text/javascript">
+/*int n=0;
+var mas = []; // объявление массива
+ 
+mas[n] = {
+    id: "1",
+    name: "Ivanov"
+}
+mas[n+1] = {
+    id: "2",
+    name: "Ivan"
+}
+mas[n+2] = {
+    id: "3",
+    name: "ivanovich"
+}
+let f=(mas)=>({for (int i=0;i<n+1;i++;){return mas[i];}});
+console.log(f(mas));*/
+let f = (mas) => 
+{
+function callback(call) {
+if (typeof(call)=='function') call()
+};
+let el;
+let mas2 = new Array (mas.length);
+for (let i=0;i<mas2.length;i++)
+{
+el=0;
+for (let j in mas[i]) el++;
+mas2[i]=el; 
+}
+let max=0;
+for (let i=0;i<mas2.length;i++)
+if (mas2[max]<mas2[i]) max=i;
+for (let i in mas[mas.length-1])
+callback(mas[mas.length-1][i]) 
+return mas[max];
+}
+
+
+let mas =[
+user1 = {f:'Иванов',i:'Иван',o:'Иванович'},
+user2 = {f2: 'Петин',i2:'Петя'},
+user3 = {surname:'Семёнов',i:'Иван',o:'Васильевич', ret:88005553535},
+user4 = {g:'пароль',r:'12345'}
+];
+console.log(f(mas));
+</script>
+</body>
+</html>
